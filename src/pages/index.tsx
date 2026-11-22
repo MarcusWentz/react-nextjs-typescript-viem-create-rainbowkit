@@ -53,7 +53,7 @@ const Home: NextPage = () => {
                    {/*{errorMessage}*/}
                    <h4> </h4>
 			<div className="min-h-[5vh]"></div>
-                   <form action="https://github.com/MarcusWentz/react-nextjs-ethers-template">
+                   <form action="https://github.com/MarcusWentz/react-nextjs-typescript-viem-create-rainbowkit">
                      <input className="button buttonHighContrast" type="submit" value="GitHub" />
                    </form>
                  </div>
