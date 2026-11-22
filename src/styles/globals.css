@@ -24,3 +24,29 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.buttonHighContrast {
+  /* background-color: #000000; */
+  background-color: #ffffff;
+  color: #808080;
+  border-style: solid;
+  border-color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.buttonHighContrast:hover {
+  /* background-color: #000000; */
+  background-color: #808080;
+  color: #ffffff;
+  border-style: solid;
+  border-color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

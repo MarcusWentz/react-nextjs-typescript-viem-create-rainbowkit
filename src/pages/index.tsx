@@ -18,6 +18,51 @@ const Home: NextPage = () => {
       <main className={styles.main}>
         <ConnectButton />
 
+        {/*TEMPLATE*/}
+        <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+             <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
+               <ol className="list-inside list-decimal text-sm text-center sm:text-center font-[family-name:var(--font-geist-mono)]">
+              
+                <div>
+                 <h4> </h4>
+                {/*<button className="button buttonConnectMetamask"
+                  // onClick={connectWalletHandler}>{connButtonText}
+                </button>*/}
+                   <div>
+       
+			{/* Spacing based on pixels. */}
+			{/* <div className="min-h-[200px]">B</div> */}
+       
+			{/* Spacing based on device screen percentage. */}
+			<div className="min-h-[5vh]"></div>
+       
+                   <h5> storedData(): </h5>
+                   {/*{currentContractVal}*/}
+                   <h4> </h4>
+                   </div>
+			<div className="min-h-[5vh]"></div>
+                   {/*<form onSubmit={setHandler}>*/}
+                     {/*<button className="button buttonHighContrast" type={"submit"}> set(uint256 x) </button>
+                     <h4> </h4>
+			  <div className="min-h-[5vh]"></div>
+                     <input id="setText" type="text" placeholder="input uint256 value" style={{ backgroundColor: "white", color: "black", padding: "5px" }}/>
+                   </form>*/}
+			<div className="min-h-[5vh]"></div>
+                   <h4> </h4>
+                   {/*{errorMessage}*/}
+                   <h4> </h4>
+			<div className="min-h-[5vh]"></div>
+                   <form action="https://github.com/MarcusWentz/react-nextjs-ethers-template">
+                     <input className="button buttonHighContrast" type="submit" value="GitHub" />
+                   </form>
+                 </div>
+                 
+               </ol>
+             </main>
+           </div>
+        
+        {/*TEMPLATE*/}
+        
         <h1 className={styles.title}>
           Welcome to <a href="https://www.rainbowkit.com">RainbowKit</a> +{' '}
           <a href="https://wagmi.sh">wagmi</a> +{' '}
