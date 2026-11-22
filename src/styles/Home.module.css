@@ -3,6 +3,9 @@
 }
 
 .main {
+  background-color: #121212;
+  color: #ffffff;
+  min-width: 100vw;
   min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
