@@ -2,6 +2,7 @@ import { ConnectButton } from '@rainbow-me/rainbowkit';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import ReadContract from '../components/ReadContract'
 
 const Home: NextPage = () => {
   return (
@@ -37,7 +38,7 @@ const Home: NextPage = () => {
 			<div className="min-h-[5vh]"></div>
        
                    <h5> storedData(): </h5>
-                   {/*{currentContractVal}*/}
+                      <ReadContract />
                    <h4> </h4>
                    </div>
 			<div className="min-h-[5vh]"></div>
