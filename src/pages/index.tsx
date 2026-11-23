@@ -3,6 +3,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import ReadContract from '../components/ReadContract'
+import WriteContract from '../components/WriteContract'
 
 const Home: NextPage = () => {
   return (
@@ -41,10 +42,13 @@ const Home: NextPage = () => {
                       <ReadContract />
                    <h4> </h4>
                    </div>
-			<div className="min-h-[5vh]"></div>
+                <div className="min-h-[5vh]"></div>
+                <WriteContract />
+
                    {/*<form onSubmit={setHandler}>*/}
                      {/*<button className="button buttonHighContrast" type={"submit"}> set(uint256 x) </button>
-                     <h4> </h4>
+                    
+                       <h4> </h4>
 			  <div className="min-h-[5vh]"></div>
                      <input id="setText" type="text" placeholder="input uint256 value" style={{ backgroundColor: "white", color: "black", padding: "5px" }}/>
                    </form>*/}
